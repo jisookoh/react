@@ -17,4 +17,4 @@
 
 1. [https://tyoon9781.tistory.com/entry/vscode-React-Prettier-ESLint-setting](https://tyoon9781.tistory.com/entry/vscode-React-Prettier-ESLint-setting)이 링크로 접속.
 
-2. 기본 규칙이나 설정은 해놓았기 때문에 vscode 세팅만 해주면 됌 (3. vscode에 Prettier, ESlint 확장모듈 설치부터 보세유!)
+2. 기본 규칙이나 설정은 해놓았기 때문에 vscode 세팅만 해주면 됌 (위 링크에 3. vscode에 Prettier, ESlint 확장모듈 설치부터 보세유!)
