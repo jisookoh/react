@@ -15,7 +15,8 @@ export default [
       prettier: prettierPlugin,
     },
     rules: {
-      "prettier/prettier": "error",
+      "prettier/prettier": ["error", { endOfLine: "auto" }],
+      "react/react-in-jsx-scope": "off",
     },
     settings: {
       react: { version: "detect" },
