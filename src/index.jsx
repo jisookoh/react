@@ -6,6 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+// 리액트 파일들은 public/index.html -> body 안에 있는 id=root를 선택한 후에 해당 태그 안에
+// 우리가 작성한 코드들을 rendering 하는 것입니다.
 root.render(
   <React.StrictMode>
     <BrowserRouter>
