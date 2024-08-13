@@ -34,6 +34,7 @@ export default function Main() {
     <>
       <Header />
       <StyledMainContainer>
+        테스트 좀 볼게요
         <MainContainer />
       </StyledMainContainer>
       <StyledButton>버튼</StyledButton>
