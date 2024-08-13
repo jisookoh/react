@@ -3,6 +3,7 @@ import { MainContainer } from "../components/main/MainContainter";
 import { Header } from "../components/common/Header";
 import { Footer } from "../components/common/Footer";
 import { buttonStyle } from "../style/button";
+import { DefaultButton } from "../components/common/button/DefaultButton";
 
 // export 함수 선언
 // pages안에 파일          -> export default function Main() {}
@@ -30,6 +31,10 @@ export default function Main() {
   // 6. <></>은 return문 안에서 최상위 태그(Header, StyledMainContainer, Footer)가 형제태그가 되면 에러가 뜨기 때문에 아무 의미없는 태그로 감싸준겁니당
   // 7. 외부에서 사용되어야할 모든 파일/변수들은 export와 import를 해주어야 합니다!!(주고~ 받고~)
 
+  const onClickButton = () => {
+    alert("버튼을 클릭 이벤트는 너굴맨이 처리했다구~~");
+  };
+
   return (
     <>
       <Header />
@@ -37,6 +42,7 @@ export default function Main() {
         <MainContainer />
       </StyledMainContainer>
       <StyledButton>버튼</StyledButton>
+      <DefaultButton label="Purchase Inquiries and Demo Requests" onClick={onClickButton} />
       <Footer />
     </>
   );
