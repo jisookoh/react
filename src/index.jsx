@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import GlobalStyles from "./style/GlobalStyles";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // 리액트 파일들은 public/index.html -> body 안에 있는 id=root를 선택한 후에 해당 태그 안에
@@ -11,6 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <GlobalStyles />
       <App />
     </BrowserRouter>
   </React.StrictMode>,
