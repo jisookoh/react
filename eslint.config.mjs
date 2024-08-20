@@ -21,5 +21,8 @@ export default [
     settings: {
       react: { version: "detect" },
     },
+    env: {
+      node: true,
+    },
   },
 ];
